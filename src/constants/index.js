@@ -61,8 +61,8 @@ export const myProjects = [
     desc: "Podcastr est une plateforme révolutionnaire de Software-as-a-Service qui transforme la création de podcasts. Avec des fonctionnalités avancées basées sur l'IA comme la conversion de texte en plusieurs voix, elle permet aux créateurs de générer divers doublages à partir d'une seule entrée de texte.",
     title: "Podcastr - Plateforme de podcast IA",
     subdesc:
-        "Conçu comme une application unique de Software-as-a-Service avec Next.js 14, Tailwind CSS, TypeScript, Framer Motion et Convex, Podcastr est optimisé pour des performances et une évolutivité maximales.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Conçu comme une application unique de Software-as-a-Service avec Next.js 14, Tailwind CSS, TypeScript, Framer Motion et Convex, Podcastr est optimisé pour des performances et une évolutivité maximales.",
+    href: "https://github.com/yanssou/podcastr",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -98,7 +98,7 @@ export const myProjects = [
     title: "LiveDoc - Clone Google Docs en temps réel",
     desc: "LiveDoc est une application collaborative puissante qui élève les capacités d'édition de documents en temps réel. En tant que version améliorée de Google Docs, elle prend en charge des millions de collaborateurs simultanément, garantissant que chaque modification est capturée instantanément et avec précision.",
     subdesc:
-        "Avec LiveDoc, les utilisateurs peuvent expérimenter l'avenir de la collaboration, où plusieurs contributeurs travaillent ensemble en temps réel sans aucun décalage, grâce à l'utilisation des dernières fonctionnalités de Next.js et Liveblocks.",
+      "Avec LiveDoc, les utilisateurs peuvent expérimenter l'avenir de la collaboration, où plusieurs contributeurs travaillent ensemble en temps réel sans aucun décalage, grâce à l'utilisation des dernières fonctionnalités de Next.js et Liveblocks.",
     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
@@ -135,14 +135,14 @@ export const myProjects = [
     title: "CarePulse - Système de gestion de la santé",
     desc: "Une plateforme innovante de soins de santé conçue pour simplifier les processus médicaux essentiels. Elle simplifie l'enregistrement des patients, la prise de rendez-vous et la gestion des dossiers médicaux, offrant une expérience fluide pour les prestataires de soins et les patients.",
     subdesc:
-        "Axé sur l'efficacité, CarePulse intègre des formulaires complexes et des notifications SMS, utilisant Next.js, Appwrite, Twilio et Sentry pour améliorer les flux de travail opérationnels.",
+      "Axé sur l'efficacité, CarePulse intègre des formulaires complexes et des notifications SMS, utilisant Next.js, Appwrite, Twilio et Sentry pour améliorer les flux de travail opérationnels.",
     href: "https://www.youtube.com/watch?v=lEflo_sc82g",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
-          "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
       border: "0.2px solid rgba(208, 213, 221, 1)",
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
@@ -174,7 +174,7 @@ export const myProjects = [
     title: "Horizon - Plateforme bancaire en ligne",
     desc: "Horizon est une plateforme bancaire en ligne complète qui offre aux utilisateurs un tableau de bord centralisé pour la gestion de leurs finances. Elle permet aux utilisateurs de connecter plusieurs comptes bancaires, de surveiller les transactions en temps réel et de transférer de l'argent de manière transparente vers d'autres utilisateurs.",
     subdesc:
-        "Conçue avec Next.js 14, Appwrite, Dwolla et Plaid, Horizon garantit une expérience bancaire fluide et sécurisée, adaptée aux besoins des consommateurs modernes.",
+      "Conçue avec Next.js 14, Appwrite, Dwolla et Plaid, Horizon garantit une expérience bancaire fluide et sécurisée, adaptée aux besoins des consommateurs modernes.",
     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
@@ -211,7 +211,7 @@ export const myProjects = [
     title: "Imaginify - Application de manipulation de photos IA",
     desc: "Imaginify est une application révolutionnaire de Software-as-a-Service qui permet aux utilisateurs de créer des manipulations photo époustouflantes en utilisant la technologie IA. Avec des fonctionnalités telles que l'édition d'images assistée par l'IA, un système de paiement et un modèle basé sur des crédits.",
     subdesc:
-        "Conçue avec Next.js 14, Cloudinary AI, Clerk et Stripe, Imaginify combine technologie de pointe et approche centrée sur l'utilisateur. Elle peut être transformée en une source de revenus secondaires ou même en une entreprise à part entière.",
+      "Conçue avec Next.js 14, Cloudinary AI, Clerk et Stripe, Imaginify combine technologie de pointe et approche centrée sur l'utilisateur. Elle peut être transformée en une source de revenus secondaires ou même en une entreprise à part entière.",
     href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
     texture: "/textures/project/project5.mp4",
     logo: "/assets/project-logo5.png",
@@ -245,7 +245,6 @@ export const myProjects = [
     ],
   },
 ];
-
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
