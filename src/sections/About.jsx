@@ -2,6 +2,7 @@ import { useState } from "react";
 import Globe from "react-globe.gl";
 
 import Button from "../components/Button.jsx";
+import { about } from "../constants/index.js";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -27,13 +28,8 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Salut, c&apos;est Yanis !</p>
-              <p className="grid-subtext">
-                Après 2 ans d&apos;expérience en développement web fullstack et
-                mobile, j&apos;ai pu développer mes compétences frontend et
-                backend et m&apos;essaye désormais à l&apos;animation 3D dans
-                les sites internet.
-              </p>
+              <p className="grid-headtext">{about.bioTitle}</p>
+              <p className="grid-subtext">{about.bioDesc}</p>
             </div>
           </div>
         </div>
@@ -47,11 +43,8 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Stack Technique</p>
-              <p className="grid-subtext">
-                Je me spécialise en Javascript/Java avec un focus sur React,
-                Angular ainsi que SpringBoot.
-              </p>
+              <p className="grid-headtext">{about.stackTechTitle}</p>
+              <p className="grid-subtext">{about.stackTechDesc}</p>
             </div>
           </div>
         </div>
@@ -72,13 +65,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">
-                Collaborons depuis n&apos;importe où !
-              </p>
-              <p className="grid-subtext">
-                Je peux me déplacer à Paris et dans le 94 ou partout dans le
-                monde en remote.
-              </p>
+              <p className="grid-headtext">{about.collabTitle}</p>
+              <p className="grid-subtext">{about.collabDesc}</p>
               <Button
                 name="Contactez-moi !"
                 isBeam
@@ -96,14 +84,8 @@ const About = () => {
               className="w-full sm:h-[266px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">
-                Ma passion pour le développement !
-              </p>
-              <p className="grid-subtext">
-                Je suis passionné par la résolution de problèmes et le côté
-                créatif du développement. Pour moi, coder est plus qu&apos;une
-                profession, c&apos;est une véritable passion.
-              </p>
+              <p className="grid-headtext">{about.passionTitle}</p>
+              <p className="grid-subtext">{about.passionDesc}</p>
             </div>
           </div>
         </div>
@@ -117,8 +99,8 @@ const About = () => {
             />
             <div className="space-y-2">
               <p className="grid-subtext text-center">
-                Vous n&apos;aimez pas téléphoner ? <br />
-                Envoyez-moi un mail !
+                {about.telQuestion} <br />
+                {about.sendMail}
               </p>
               <div className="copy-container" onClick={handleCopy}>
                 <img
@@ -126,7 +108,7 @@ const About = () => {
                   alt="copy"
                 />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray-50_gradient text-white">
-                  yanis.ikhe@gmail.com
+                  {about.mail}
                 </p>
               </div>
             </div>

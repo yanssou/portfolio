@@ -21,6 +21,24 @@ export const navLinks = [
   },
 ];
 
+export const about = {
+  bioTitle: "Salut, c'est Yanis !",
+  bioDesc:
+    "Après 2 ans d'expérience en développement web fullstack et mobile, j'ai pu développer mes compétences frontend et backend. Mon master d'Architecte logiciel et développeur d'applications en poche, je suis désormais à la recherche d'un emploi en tant que développeur fullstack, frontend ou backend dans une entreprise qui me permettra d'exprimer toutes mes compétences au profit d'un projet innovant et/ou plein de sens.",
+  stackTechTitle: "Stack Technique",
+  stackTechDesc:
+    "Pour ce qui est du frontend, je me spécialise dans le Javascript et suis particulièrement familier avec les frameworks React (NextJS) et Angular. Pour le backend, j'ai beaucoup travaillé en SpringBoot mais j'ai aussi pu travailler avec du nodeJS (AdonisJS). J'ai aussi pu un peu toucher au monde du mobile avec React Native.",
+  collabTitle: "Collaborons depuis n'importe où !",
+  collabDesc:
+    " Je peux me déplacer à Paris et dans le 94 ou partout dans le monde en remote.",
+  passionTitle: "Ma passion pour le développement !",
+  passionDesc:
+    "Je suis passionné par la résolution de problèmes et le côté créatif du développement. Pour moi, coder est plus qu'une profession, c'est une véritable passion. C'est pour cette raison que je m'efforce de toujours apprendre et de m'améliorer en réalisant de mon côté plusieurs projets personnels. Ces derniers me permettent alors de toucher aux technologies les plus récentes qui sont prometteuses et seront les indispensables de demain.",
+  telQuestion: "Vous n'aimez pas téléphoner ?",
+  sendMail: "Envoyez-moi un mail !",
+  mail: "yanis.ikhe@gmail.com",
+};
+
 export const myProjects = [
   {
     title: "Podcastr - Plateforme de podcast IA",
@@ -278,3 +296,16 @@ export const workExperiences = [
     animation: "salute",
   },
 ];
+
+export const contact = {
+  title: "Let's connect !",
+  desc: "Que ça soit pour une mission, une proposition d'emploi ou tout simplement pour échanger sur notre passion commune, ça sera un plaisir d'échanger avec vous !",
+  name: "Nom complet",
+  namePlaceholder: "Jean Dupont",
+  email: "Email",
+  mailPlaceholder: "jean.dupont@gmail.com",
+  message: "Message",
+  messagePlaceholder: "Bonjour, je vous contact pour...",
+  sending: "Envoi en cours...",
+  send: "Envoyer",
+};

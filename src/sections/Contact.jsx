@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useMediaQuery } from "react-responsive";
+import { contact } from "../constants";
 
 const Contact = () => {
   const formRef = useRef();
@@ -58,12 +59,8 @@ const Contact = () => {
           />
         )}
         <div className="contact-container">
-          <h3 className="head-text mt-10">Let&apos;s connect !</h3>
-          <p className="text-lg text-white-600 mt-3">
-            Que ça soit pour une mission, une proposition d&apos;emploi ou tout
-            simplement pour échanger sur notre passion commune, ça sera un
-            plaisir d&apos;échanger avec vous !
-          </p>
+          <h3 className="head-text mt-10">{contact.title}</h3>
+          <p className="text-lg text-white-600 mt-3">{contact.desc}</p>
 
           <form
             ref={formRef}
@@ -71,7 +68,7 @@ const Contact = () => {
             className="mt-12 flex flex-col space-y-7"
           >
             <label className="space-y-3">
-              <span className="field-label">Nom complet</span>
+              <span className="field-label">{contact.name}</span>
               <input
                 type="text"
                 name="name"
@@ -79,11 +76,11 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="Jean Dupont"
+                placeholder={contact.namePlaceholder}
               />
             </label>
             <label className="space-y-3">
-              <span className="field-label">Email</span>
+              <span className="field-label">{contact.email}</span>
               <input
                 type="email"
                 name="email"
@@ -91,11 +88,11 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="jean.dupont@gmail.com"
+                placeholder={contact.mailPlaceholder}
               />
             </label>
             <label className="space-y-3">
-              <span className="field-label">Message</span>
+              <span className="field-label">{contact.message}</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -103,12 +100,12 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Bonjour, je vous contact pour..."
+                placeholder={contact.messagePlaceholder}
               />
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? "Envoi en cours..." : "Envoyer"}
+              {loading ? contact.sending : contact.send}
               <img
                 src="/assets/arrow-up.png"
                 alt="arrow"
