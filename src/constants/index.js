@@ -23,8 +23,8 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    desc: "Podcastr est une plateforme révolutionnaire de Software-as-a-Service qui transforme la création de podcasts. Avec des fonctionnalités avancées basées sur l'IA comme la conversion de texte en plusieurs voix, elle permet aux créateurs de générer divers doublages à partir d'une seule entrée de texte.",
     title: "Podcastr - Plateforme de podcast IA",
+    desc: "Podcastr est une plateforme révolutionnaire de Software-as-a-Service qui transforme la création de podcasts. Avec des fonctionnalités avancées basées sur l'IA comme la conversion de texte en plusieurs voix, elle permet aux créateurs de générer divers doublages à partir d'une seule entrée de texte.",
     subdesc:
       "Conçu comme une application unique de Software-as-a-Service avec Next.js 14, Tailwind CSS, TypeScript, Framer Motion et Convex, Podcastr est optimisé pour des performances et une évolutivité maximales.",
     href: "https://github.com/yanssou/podcastr",
