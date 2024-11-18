@@ -61,10 +61,10 @@ export const myProjects = [
   },
   {
     title: "LiveDoc - Clone Google Docs en temps réel",
-    desc: "LiveDoc est une application collaborative puissante qui élève les capacités d'édition de documents en temps réel. En tant que version améliorée de Google Docs, elle prend en charge des millions de collaborateurs simultanément, garantissant que chaque modification est capturée instantanément et avec précision.",
+    desc: "Digital Marketing Agency - Template Moderne & Dynamique | Propulsez votre agence marketing vers de nouveaux sommets avec ce template premium conçu pour captiver et convertir.",
     subdesc:
-      "Avec LiveDoc, les utilisateurs peuvent expérimenter l'avenir de la collaboration, où plusieurs contributeurs travaillent ensemble en temps réel sans aucun décalage, grâce à l'utilisation des dernières fonctionnalités de Next.js et Liveblocks.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "Une landing page ultra-moderne qui allie esthétique et performance pour transformer vos visiteurs en clients. ✨ Points Clés : Design épuré et minimaliste suivant les dernières tendances web, expérience utilisateur fluide avec des animations subtiles et engageantes, 100% responsive : une expérience parfaite sur tous les écrans, sections modulaires personnalisables pour vos services et réalisations, performance optimisée pour un chargement ultra-rapide, SEO-friendly dès la mise en production. 🛠 Aspect Technique : Développé avec les technologies modernes du web - Next.js 13+ : Framework React de pointe pour des performances optimales et un excellent SEO, Tailwind CSS : Styling moderne et maintenable avec une approche utility-first, Framer Motion : Animations fluides et interactives pour une expérience utilisateur premium. Architecture propre suivant les meilleures pratiques React et les standards de l'industrie.",
+    href: "https://medianis.vercel.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
