@@ -60,10 +60,10 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Clone Google Docs en temps réel",
-    desc: "Digital Marketing Agency - Template Moderne & Dynamique | Propulsez votre agence marketing vers de nouveaux sommets avec ce template premium conçu pour captiver et convertir.",
+    title: "Digital Marketing Agency - Template Moderne & Dynamique",
+    desc: "Propulsez votre agence marketing vers de nouveaux sommets avec ce template premium conçu pour captiver et convertir.",
     subdesc:
-      "Une landing page ultra-moderne qui allie esthétique et performance pour transformer vos visiteurs en clients. ✨ Points Clés : Design épuré et minimaliste suivant les dernières tendances web, expérience utilisateur fluide avec des animations subtiles et engageantes, 100% responsive : une expérience parfaite sur tous les écrans, sections modulaires personnalisables pour vos services et réalisations, performance optimisée pour un chargement ultra-rapide, SEO-friendly dès la mise en production. 🛠 Aspect Technique : Développé avec les technologies modernes du web - Next.js 13+ : Framework React de pointe pour des performances optimales et un excellent SEO, Tailwind CSS : Styling moderne et maintenable avec une approche utility-first, Framer Motion : Animations fluides et interactives pour une expérience utilisateur premium. Architecture propre suivant les meilleures pratiques React et les standards de l'industrie.",
+      "Une landing page moderne qui transforme vos visiteurs en clients. ✨ Points clés : design épuré et tendance, animations subtiles et engageantes, 100% responsive, sections modulaires personnalisables, chargement ultra-rapide et optimisé pour le SEO. Technique : développé avec Next.js 13+, Tailwind CSS, Framer Motion et suivant les meilleures pratiques React pour des performances et une maintenabilité optimales.",
     href: "https://medianis.vercel.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
