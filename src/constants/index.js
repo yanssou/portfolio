@@ -61,9 +61,9 @@ export const myProjects = [
   },
   {
     title: "Digital Marketing Agency - Template Moderne & Dynamique",
-    desc: "Propulsez votre agence marketing vers de nouveaux sommets avec ce template premium conçu pour captiver et convertir.",
+    desc: "Une landing page moderne qui transforme vos visiteurs en clients. ✨ Design épuré et tendance, animations subtiles et engageantes, 100% responsive, sections modulaires personnalisables, chargement ultra-rapide et optimisé pour le SEO.",
     subdesc:
-      "Une landing page moderne qui transforme vos visiteurs en clients. ✨ \n Points clés : design épuré et tendance, animations subtiles et engageantes, 100% responsive, sections modulaires personnalisables, chargement ultra-rapide et optimisé pour le SEO.\n Technique : développé avec Next.js 13+, Tailwind CSS, Framer Motion et suivant les meilleures pratiques React pour des performances et une maintenabilité optimales.",
+      "Développé avec Next.js 13+, Tailwind CSS, Framer Motion et suivant les meilleures pratiques React pour des performances et une maintenabilité optimales.",
     href: "https://medianis.vercel.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
