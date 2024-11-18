@@ -96,119 +96,119 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: "CarePulse - Système de gestion de la santé",
-    desc: "Une plateforme innovante de soins de santé conçue pour simplifier les processus médicaux essentiels. Elle simplifie l'enregistrement des patients, la prise de rendez-vous et la gestion des dossiers médicaux, offrant une expérience fluide pour les prestataires de soins et les patients.",
-    subdesc:
-      "Axé sur l'efficacité, CarePulse intègre des formulaires complexes et des notifications SMS, utilisant Next.js, Appwrite, Twilio et Sentry pour améliorer les flux de travail opérationnels.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
-    logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
-    spotlight: "/assets/spotlight3.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Plateforme bancaire en ligne",
-    desc: "Horizon est une plateforme bancaire en ligne complète qui offre aux utilisateurs un tableau de bord centralisé pour la gestion de leurs finances. Elle permet aux utilisateurs de connecter plusieurs comptes bancaires, de surveiller les transactions en temps réel et de transférer de l'argent de manière transparente vers d'autres utilisateurs.",
-    subdesc:
-      "Conçue avec Next.js 14, Appwrite, Dwolla et Plaid, Horizon garantit une expérience bancaire fluide et sécurisée, adaptée aux besoins des consommateurs modernes.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - Application de manipulation de photos IA",
-    desc: "Imaginify est une application révolutionnaire de Software-as-a-Service qui permet aux utilisateurs de créer des manipulations photo époustouflantes en utilisant la technologie IA. Avec des fonctionnalités telles que l'édition d'images assistée par l'IA, un système de paiement et un modèle basé sur des crédits.",
-    subdesc:
-      "Conçue avec Next.js 14, Cloudinary AI, Clerk et Stripe, Imaginify combine technologie de pointe et approche centrée sur l'utilisateur. Elle peut être transformée en une source de revenus secondaires ou même en une entreprise à part entière.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
+  // {
+  //   title: "CarePulse - Système de gestion de la santé",
+  //   desc: "Une plateforme innovante de soins de santé conçue pour simplifier les processus médicaux essentiels. Elle simplifie l'enregistrement des patients, la prise de rendez-vous et la gestion des dossiers médicaux, offrant une expérience fluide pour les prestataires de soins et les patients.",
+  //   subdesc:
+  //     "Axé sur l'efficacité, CarePulse intègre des formulaires complexes et des notifications SMS, utilisant Next.js, Appwrite, Twilio et Sentry pour améliorer les flux de travail opérationnels.",
+  //   href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+  //   texture: "/textures/project/project3.mp4",
+  //   logo: "/assets/project-logo3.png",
+  //   logoStyle: {
+  //     backgroundColor: "#60f5a1",
+  //     background:
+  //       "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+  //     border: "0.2px solid rgba(208, 213, 221, 1)",
+  //     boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+  //   },
+  //   spotlight: "/assets/spotlight3.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "React.js",
+  //       path: "/assets/react.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/typescript.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Framer Motion",
+  //       path: "/assets/framer.png",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Horizon - Plateforme bancaire en ligne",
+  //   desc: "Horizon est une plateforme bancaire en ligne complète qui offre aux utilisateurs un tableau de bord centralisé pour la gestion de leurs finances. Elle permet aux utilisateurs de connecter plusieurs comptes bancaires, de surveiller les transactions en temps réel et de transférer de l'argent de manière transparente vers d'autres utilisateurs.",
+  //   subdesc:
+  //     "Conçue avec Next.js 14, Appwrite, Dwolla et Plaid, Horizon garantit une expérience bancaire fluide et sécurisée, adaptée aux besoins des consommateurs modernes.",
+  //   href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+  //   texture: "/textures/project/project4.mp4",
+  //   logo: "/assets/project-logo4.png",
+  //   logoStyle: {
+  //     backgroundColor: "#0E1F38",
+  //     border: "0.2px solid #0E2D58",
+  //     boxShadow: "0px 0px 60px 0px #2F67B64D",
+  //   },
+  //   spotlight: "/assets/spotlight4.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "React.js",
+  //       path: "/assets/react.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/typescript.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Framer Motion",
+  //       path: "/assets/framer.png",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Imaginify - Application de manipulation de photos IA",
+  //   desc: "Imaginify est une application révolutionnaire de Software-as-a-Service qui permet aux utilisateurs de créer des manipulations photo époustouflantes en utilisant la technologie IA. Avec des fonctionnalités telles que l'édition d'images assistée par l'IA, un système de paiement et un modèle basé sur des crédits.",
+  //   subdesc:
+  //     "Conçue avec Next.js 14, Cloudinary AI, Clerk et Stripe, Imaginify combine technologie de pointe et approche centrée sur l'utilisateur. Elle peut être transformée en une source de revenus secondaires ou même en une entreprise à part entière.",
+  //   href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+  //   texture: "/textures/project/project5.mp4",
+  //   logo: "/assets/project-logo5.png",
+  //   logoStyle: {
+  //     backgroundColor: "#1C1A43",
+  //     border: "0.2px solid #252262",
+  //     boxShadow: "0px 0px 60px 0px #635BFF4D",
+  //   },
+  //   spotlight: "/assets/spotlight5.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "React.js",
+  //       path: "/assets/react.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/typescript.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Framer Motion",
+  //       path: "/assets/framer.png",
+  //     },
+  //   ],
+  // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
